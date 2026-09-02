@@ -85,6 +85,7 @@ function extractText(data) {
   for (const item of data.output || []) {
     for (const content of item.content || []) {
       if (typeof content.text === "string") parts.push(content.text);
+      if (typeof content.refusal === "string") parts.push(content.refusal);
     }
   }
 
@@ -134,8 +135,9 @@ module.exports = async function handler(req, res) {
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
-        model: process.env.OPENAI_MODEL || "gpt-5-mini",
-        max_output_tokens: 240,
+        model: process.env.OPENAI_MODEL || "gpt-5.6-luna",
+        max_output_tokens: 500,
+        reasoning: { effort: "none" },
         input: [
           {
             role: "system",
@@ -160,10 +162,18 @@ module.exports = async function handler(req, res) {
     const data = await response.json();
     const answer = extractText(data);
 
+    if (!answer) {
+      console.error("OpenAI API returned no visible text", {
+        status: data.status,
+        incomplete_details: data.incomplete_details,
+        output: data.output
+      });
+      res.status(502).json({ error: "AI service returned no answer." });
+      return;
+    }
+
     res.status(200).json({
-      answer:
-        answer ||
-        "I can answer questions about Zihan's education, research, skills, honors, publications, and contact details."
+      answer
     });
   } catch (error) {
     console.error(error);
