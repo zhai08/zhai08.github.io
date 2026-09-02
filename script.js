@@ -42,27 +42,27 @@ const answers = [
   {
     keywords: ["research", "interest", "interests", "lab", "work", "science"],
     html:
-      "Zihan works across chemical biology, bacteriophage-host defense, cell polarity, and quantitative analysis, with a long-term interest in longevity therapeutics and making aging biology pharmacologically tractable. At <a href=\"https://www.sgc-unc.org/\" target=\"_blank\" rel=\"noreferrer\">SGC-UNC</a>, she develops live-cell assays for targeted degradation and inhibitor profiling; at <a href=\"https://jensonlab.org/\" target=\"_blank\" rel=\"noreferrer\">Jenson Lab</a>, she uses CRISPR-Cas13a phage genome engineering to validate anti-CBASS candidates; and at <a href=\"https://asmlab.web.unc.edu/\" target=\"_blank\" rel=\"noreferrer\">Maddox Lab</a>, she studied PAR polarity proteins in adult C. elegans germline structure."
+      "Zihan works across chemical biology, bacteriophage-host defense, cell polarity, and quantitative analysis, with a long-term interest in longevity therapeutics and making aging biology pharmacologically tractable. At <a href=\"https://www.sgc-unc.org/\" target=\"_blank\" rel=\"noreferrer\">SGC-UNC</a>, he develops live-cell assays for targeted degradation and inhibitor profiling; at <a href=\"https://jensonlab.org/\" target=\"_blank\" rel=\"noreferrer\">Jenson Lab</a>, he uses CRISPR-Cas13a phage genome engineering to validate anti-CBASS candidates; and at <a href=\"https://asmlab.web.unc.edu/\" target=\"_blank\" rel=\"noreferrer\">Maddox Lab</a>, he studied PAR polarity proteins in adult C. elegans germline structure."
   },
   {
     keywords: ["why", "motivation", "motivated", "longevity", "aging", "ageing", "immortality", "anti-aging", "life science"],
     html:
-      "Zihan first became interested in life science through a long-horizon question: whether aging and life-limiting disease could someday become measurable, targetable, and treatable. Her ultimate dream is radically extended healthy life, but she frames it through rigorous gerotherapeutic discovery rather than a simple miracle cure: chemical biology, pharmacology, target engagement, screening, protein fate, and quantitative experimental systems."
+      "Zihan first became interested in life science through a long-horizon question: whether aging and life-limiting disease could someday become measurable, targetable, and treatable. His ultimate dream is radically extended healthy life, but he frames it through rigorous gerotherapeutic discovery rather than a simple miracle cure: chemical biology, pharmacology, target engagement, screening, protein fate, and quantitative experimental systems."
   },
   {
     keywords: ["future", "phd", "graduate", "goal", "goals", "geroscience", "gerotherapeutic", "gerotherapeutics"],
     html:
-      "For future PhD research, Zihan hopes to connect molecular perturbation, target engagement, cellular response, and organismal phenotype. She is especially interested in applying chemical biology and quantitative pharmacology to geroscience: discovering and validating interventions that could preserve function during aging and eventually contribute to longevity therapeutics."
+      "For future PhD research, Zihan hopes to connect molecular perturbation, target engagement, cellular response, and organismal phenotype. He is especially interested in applying chemical biology and quantitative pharmacology to geroscience: discovering and validating interventions that could preserve function during aging and eventually contribute to longevity therapeutics."
   },
   {
     keywords: ["sgc", "flc", "fibrolamellar", "dnaj", "pkac", "nanobret", "degradation"],
     html:
-      "At SGC-UNC, Zihan studies targeted therapeutic strategies for fibrolamellar carcinoma, focusing on selective degradation of the DNAJ-PKAc fusion oncoprotein. She develops complementary live-cell assays, including NanoBRET target-engagement, luminescent protein-abundance reporters, and thermal-response assays. She also performed NanoBRET target-engagement profiling of PGK1/PGK2 inhibitor candidates to quantify cellular IC50 values for a collaborative DNA-encoded library screening project."
+      "At SGC-UNC, Zihan studies targeted therapeutic strategies for fibrolamellar carcinoma, focusing on selective degradation of the DNAJ-PKAc fusion oncoprotein. He develops complementary live-cell assays, including NanoBRET target-engagement, luminescent protein-abundance reporters, and thermal-response assays. He also performed NanoBRET target-engagement profiling of PGK1/PGK2 inhibitor candidates to quantify cellular IC50 values for a collaborative DNA-encoded library screening project."
   },
   {
     keywords: ["jenson", "cbass", "phage", "bacteriophage", "t5", "alphafold", "snippy"],
     html:
-      "In Jenson Lab, Zihan investigates molecular interactions between T5 bacteriophage and host CBASS defense systems. Her work centers on CRISPR-Cas13a phage genome engineering, crRNA and homologous-recombination donor design, molecular cloning, mutant verification, and functional screening of engineered variants to identify phage factors that alter CBASS sensitivity."
+      "In Jenson Lab, Zihan investigates molecular interactions between T5 bacteriophage and host CBASS defense systems. His work centers on CRISPR-Cas13a phage genome engineering, crRNA and homologous-recombination donor design, molecular cloning, mutant verification, and functional screening of engineered variants to identify phage factors that alter CBASS sensitivity."
   },
   {
     keywords: ["maddox", "elegans", "par", "polarity", "septin", "germline", "journey"],
@@ -77,7 +77,7 @@ const answers = [
   {
     keywords: ["education", "school", "major", "unc", "oxford", "gpa", "degree"],
     html:
-      "Zihan is studying at the University of North Carolina at Chapel Hill, pursuing a B.S.P.H. in Biostatistics, a B.S. in Biology, and a minor in Pharmaceutical Sciences. Her GPA is 3.93. She also studied Biomedical Science at the University of Oxford as a non-matriculated exchange student in 2024."
+      "Zihan is studying at the University of North Carolina at Chapel Hill, pursuing a B.S.P.H. in Biostatistics, a B.S. in Biology, and a minor in Pharmaceutical Sciences. His GPA is 3.93. He also studied Biomedical Science at the University of Oxford as a non-matriculated exchange student in 2024."
   },
   {
     keywords: ["publication", "paper", "manuscript", "nature", "chemistry", "pgk", "journey"],
@@ -87,7 +87,7 @@ const answers = [
   {
     keywords: ["skill", "skills", "technique", "programming", "python", "sas", "r"],
     html:
-      "Her toolkit includes molecular cloning, CRISPR-Cas9/Cas13a systems, NanoBRET, NaLTSA, RNAi knockdown, fluorescence microscopy, AlphaFold-based structural analysis, sequence alignment, phylogenetic analysis, R, SAS, GraphPad Prism, C++, and Python."
+      "His toolkit includes molecular cloning, CRISPR-Cas9/Cas13a systems, NanoBRET, NaLTSA, RNAi knockdown, fluorescence microscopy, AlphaFold-based structural analysis, sequence alignment, phylogenetic analysis, R, SAS, GraphPad Prism, C++, and Python."
   },
   {
     keywords: ["award", "honor", "honors", "surf", "dean", "olympiad"],
@@ -102,7 +102,7 @@ const answers = [
   {
     keywords: ["interest", "literature", "travel", "han", "hanfu", "culture"],
     html:
-      "Beyond research, Zihan is interested in Chinese classical literature, mythology, Han costume culture, and travel. She previously served as president of Han Costume Club and organized campus cultural events."
+      "Beyond research, Zihan is interested in Chinese classical literature, mythology, Han costume culture, and travel. He previously served as president of Han Costume Club and organized campus cultural events."
   }
 ];
 
@@ -148,7 +148,7 @@ function localAnswer(question) {
 
   if (match) return match.html;
 
-  return "I can currently answer questions about Zihan's education, research experiences, motivation for life science, iGEM project, skills, honors, and contact details. Try asking: Why did she choose life science? What does she do at SGC-UNC? What was the iGEM project?";
+  return "I can currently answer questions about Zihan's education, research experiences, motivation for life science, iGEM project, skills, honors, and contact details. Try asking: Why did he choose life science? What does he do at SGC-UNC? What was the iGEM project?";
 }
 
 async function answerQuestion(question) {
@@ -163,11 +163,12 @@ async function answerQuestion(question) {
       body: JSON.stringify({ question })
     });
 
-    if (!response.ok) throw new Error("Request failed");
+    if (!response.ok) throw new Error(`AI request failed with ${response.status}`);
 
     const data = await response.json();
     return data.answer ? formatPlainText(data.answer) : localAnswer(question);
-  } catch {
+  } catch (error) {
+    console.error("AI backend unavailable; using local fallback.", error);
     return localAnswer(question);
   }
 }
