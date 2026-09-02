@@ -40,7 +40,17 @@ const answers = [
   {
     keywords: ["research", "interest", "interests", "lab", "work", "science"],
     html:
-      "Zihan works across chemical biology, bacteriophage-host defense, cell polarity, and quantitative analysis. At <a href=\"https://www.sgc-unc.org/\" target=\"_blank\" rel=\"noreferrer\">SGC-UNC</a>, she develops live-cell assays for targeted degradation and inhibitor profiling; at <a href=\"https://jensonlab.org/\" target=\"_blank\" rel=\"noreferrer\">Jenson Lab</a>, she uses CRISPR-Cas13a phage genome engineering to validate anti-CBASS candidates; and at <a href=\"https://asmlab.web.unc.edu/\" target=\"_blank\" rel=\"noreferrer\">Maddox Lab</a>, she studied PAR polarity proteins in adult C. elegans germline structure."
+      "Zihan works across chemical biology, bacteriophage-host defense, cell polarity, and quantitative analysis, with a long-term interest in longevity therapeutics and making aging biology pharmacologically tractable. At <a href=\"https://www.sgc-unc.org/\" target=\"_blank\" rel=\"noreferrer\">SGC-UNC</a>, she develops live-cell assays for targeted degradation and inhibitor profiling; at <a href=\"https://jensonlab.org/\" target=\"_blank\" rel=\"noreferrer\">Jenson Lab</a>, she uses CRISPR-Cas13a phage genome engineering to validate anti-CBASS candidates; and at <a href=\"https://asmlab.web.unc.edu/\" target=\"_blank\" rel=\"noreferrer\">Maddox Lab</a>, she studied PAR polarity proteins in adult C. elegans germline structure."
+  },
+  {
+    keywords: ["why", "motivation", "motivated", "longevity", "aging", "ageing", "immortality", "anti-aging", "life science"],
+    html:
+      "Zihan first became interested in life science through a long-horizon question: whether aging and life-limiting disease could someday become measurable, targetable, and treatable. Her ultimate dream is radically extended healthy life, but she frames it through rigorous gerotherapeutic discovery rather than a simple miracle cure: chemical biology, pharmacology, target engagement, screening, protein fate, and quantitative experimental systems."
+  },
+  {
+    keywords: ["future", "phd", "graduate", "goal", "goals", "geroscience", "gerotherapeutic", "gerotherapeutics"],
+    html:
+      "For future PhD research, Zihan hopes to connect molecular perturbation, target engagement, cellular response, and organismal phenotype. She is especially interested in applying chemical biology and quantitative pharmacology to geroscience: discovering and validating interventions that could preserve function during aging and eventually contribute to longevity therapeutics."
   },
   {
     keywords: ["sgc", "flc", "fibrolamellar", "dnaj", "pkac", "nanobret", "degradation"],
@@ -136,7 +146,7 @@ function localAnswer(question) {
 
   if (match) return match.html;
 
-  return "I can currently answer questions about Zihan's education, research experiences, iGEM project, skills, honors, and contact details. Try asking: What does she do at SGC-UNC? What was the iGEM project? What skills does she have?";
+  return "I can currently answer questions about Zihan's education, research experiences, motivation for life science, iGEM project, skills, honors, and contact details. Try asking: Why did she choose life science? What does she do at SGC-UNC? What was the iGEM project?";
 }
 
 async function answerQuestion(question) {
