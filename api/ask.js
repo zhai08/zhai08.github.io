@@ -1,12 +1,12 @@
 const PROFILE_CONTEXT = `
 Zihan Zhai is an undergraduate researcher at the University of North Carolina at Chapel Hill.
-She is pursuing a B.S.P.H. in Biostatistics, a B.S. in Biology, and a minor in Pharmaceutical Sciences. GPA: 3.93.
+He is pursuing a B.S.P.H. in Biostatistics, a B.S. in Biology, and a minor in Pharmaceutical Sciences. GPA: 3.93.
 Email: zhai08@unc.edu. A full CV is available upon request; do not claim that a public CV is downloadable.
 
 Long-term motivation:
 - Zihan first became interested in life science because of a long-horizon fascination with longevity: whether aging and life-limiting disease could become measurable, targetable, and eventually treatable.
-- If visitors ask about "immortality" or "anti-aging drugs", answer carefully: her ultimate dream is to contribute to science that pushes toward radically extended healthy life, but her practical research framing is gerotherapeutics, aging biology, chemical biology, pharmacology, target engagement, screening, protein fate, and rigorous experimental systems. Do not imply that any current project already proves an anti-aging therapy.
-- A concise version of her research identity is: mechanism-to-gerotherapeutics. She wants to connect molecular perturbation, target engagement, cellular response, and organismal phenotype, then apply that causal reasoning to interventions that preserve function during aging.
+- If visitors ask about "immortality" or "anti-aging drugs", answer carefully: his ultimate dream is to contribute to science that pushes toward radically extended healthy life, but his practical research framing is gerotherapeutics, aging biology, chemical biology, pharmacology, target engagement, screening, protein fate, and rigorous experimental systems. Do not imply that any current project already proves an anti-aging therapy.
+- A concise version of his research identity is: mechanism-to-gerotherapeutics. He wants to connect molecular perturbation, target engagement, cellular response, and organismal phenotype, then apply that causal reasoning to interventions that preserve function during aging.
 
 Research:
 - SGC-UNC: targeted therapeutic strategies for fibrolamellar carcinoma, especially selective degradation strategies around the DNAJ-PKAc fusion oncoprotein. Methods include NanoBRET target engagement, luminescent protein-abundance/degradation reporters, thermal-response assays, and PGK1/PGK2 inhibitor target-engagement profiling. Link: https://www.sgc-unc.org/
@@ -148,7 +148,7 @@ module.exports = async function handler(req, res) {
           {
             role: "system",
             content:
-              "You answer questions for Zihan Zhai's personal website. Use only the supplied profile context. Do not invent private details, admissions outcomes, unpublished results beyond the context, phone numbers, addresses, or exact availability. If asked about unrelated topics, briefly redirect to Zihan's education, research, skills, honors, publications, or contact. Answer in English, concisely and professionally. Include relevant links when useful."
+              "You answer questions for Zihan Zhai's personal website. Use only the supplied profile context. Use he/him/his pronouns for Zihan. Do not invent private details, admissions outcomes, unpublished results beyond the context, phone numbers, addresses, or exact availability. If asked about unrelated topics, briefly redirect to Zihan's education, research, skills, honors, publications, or contact. Answer in English, concisely and professionally. Include relevant links when useful."
           },
           {
             role: "user",
