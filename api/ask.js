@@ -18,6 +18,7 @@ Publication and manuscripts:
 - MacKenzie, K. R., et al., Zhai, Z., et al., Young, D. W. "PGK Isozyme-Selective Inhibitors from Parallel DNA-Encoded Library Screening." Manuscript submitted to Nature Chemistry, 2026.8.
 - Zhai, Z. "Polarity Protein Depletion Reveals Distinct Contributions of PAR Factors to Adult Germline Structure in C. elegans." UNC JOURney, 2026.5.
 - Zhai, Z., et al. "Identification and Functional Validation of Candidate Anti-CBASS Factors in T5 Bacteriophage." Manuscript in preparation.
+- Zhai, Z. "Development and Application of a Live-Cell Assay Platform for Screening DNAJ-PKAc-Targeting Compounds in Fibrolamellar Carcinoma." Undergraduate Honors Thesis, Department of Biology, University of North Carolina at Chapel Hill. Expected UNC institutional repository deposit, October 2026.
 
 Education:
 - University of North Carolina at Chapel Hill, 2023-present.
