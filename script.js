@@ -27,7 +27,14 @@ const chatForm = document.querySelector("#chatForm");
 const chatInput = document.querySelector("#chatInput");
 const promptButtons = document.querySelectorAll("[data-question]");
 
-const aiEndpoint = window.ZIHAN_AI_ENDPOINT || "";
+function resolveAiEndpoint() {
+  if (window.ZIHAN_AI_ENDPOINT) return window.ZIHAN_AI_ENDPOINT;
+  if (window.location.protocol === "file:") return "";
+  if (window.location.hostname.endsWith("github.io")) return "";
+  return "/api/ask";
+}
+
+const aiEndpoint = resolveAiEndpoint();
 
 const answers = [
   {
@@ -100,6 +107,17 @@ function escapeHtml(value) {
   });
 }
 
+function formatPlainText(value) {
+  const escaped = escapeHtml(value || "");
+  return escaped
+    .replace(/\n{2,}/g, "</p><p>")
+    .replace(/\n/g, "<br>")
+    .replace(
+      /(https?:\/\/[^\s<]+)/g,
+      '<a href="$1" target="_blank" rel="noreferrer">$1</a>'
+    );
+}
+
 function addMessage(role, html) {
   if (!chatLog) return;
 
@@ -136,7 +154,7 @@ async function answerQuestion(question) {
     if (!response.ok) throw new Error("Request failed");
 
     const data = await response.json();
-    return escapeHtml(data.answer || localAnswer(question));
+    return data.answer ? formatPlainText(data.answer) : localAnswer(question);
   } catch {
     return localAnswer(question);
   }
