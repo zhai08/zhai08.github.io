@@ -33,17 +33,17 @@ const answers = [
   {
     keywords: ["research", "interest", "interests", "lab", "work", "science"],
     html:
-      "Zihan works across three connected research areas: targeted degradation of the DNAJ-PKAc fusion oncoprotein at <a href=\"https://www.sgc-unc.org/\" target=\"_blank\" rel=\"noreferrer\">SGC-UNC</a>, bacteriophage-host defense at <a href=\"https://jensonlab.org/\" target=\"_blank\" rel=\"noreferrer\">Jenson Lab</a>, and PAR polarity proteins in adult C. elegans germline structure at <a href=\"https://asmlab.web.unc.edu/\" target=\"_blank\" rel=\"noreferrer\">Maddox Lab</a>."
+      "Zihan works across chemical biology, bacteriophage-host defense, cell polarity, and quantitative analysis. At <a href=\"https://www.sgc-unc.org/\" target=\"_blank\" rel=\"noreferrer\">SGC-UNC</a>, she develops live-cell assays for targeted degradation and inhibitor profiling; at <a href=\"https://jensonlab.org/\" target=\"_blank\" rel=\"noreferrer\">Jenson Lab</a>, she uses CRISPR-Cas13a phage genome engineering to validate anti-CBASS candidates; and at <a href=\"https://asmlab.web.unc.edu/\" target=\"_blank\" rel=\"noreferrer\">Maddox Lab</a>, she studied PAR polarity proteins in adult C. elegans germline structure."
   },
   {
     keywords: ["sgc", "flc", "fibrolamellar", "dnaj", "pkac", "nanobret", "degradation"],
     html:
-      "At SGC-UNC, Zihan studies targeted therapeutic strategies for fibrolamellar carcinoma, focusing on selective degradation of the DNAJ-PKAc fusion oncoprotein. She designed a live-cell luminescent reporter system and optimized NanoBRET assays to evaluate degrader activity, compound engagement, and intracellular dynamics."
+      "At SGC-UNC, Zihan studies targeted therapeutic strategies for fibrolamellar carcinoma, focusing on selective degradation of the DNAJ-PKAc fusion oncoprotein. She develops complementary live-cell assays, including NanoBRET target-engagement, luminescent protein-abundance reporters, and thermal-response assays. She also performed NanoBRET target-engagement profiling of PGK1/PGK2 inhibitor candidates to quantify cellular IC50 values for a collaborative DNA-encoded library screening project."
   },
   {
     keywords: ["jenson", "cbass", "phage", "bacteriophage", "t5", "alphafold", "snippy"],
     html:
-      "In Jenson Lab, Zihan investigates molecular interactions between T5 bacteriophage and host CBASS defense systems. Her work centers on CRISPR-Cas13a phage genome engineering, crRNA and homologous-recombination donor design, mutant construction and verification, and screening engineered variants to identify phage factors that alter CBASS sensitivity."
+      "In Jenson Lab, Zihan investigates molecular interactions between T5 bacteriophage and host CBASS defense systems. Her work centers on CRISPR-Cas13a phage genome engineering, crRNA and homologous-recombination donor design, molecular cloning, mutant verification, and functional screening of engineered variants to identify phage factors that alter CBASS sensitivity."
   },
   {
     keywords: ["maddox", "elegans", "par", "polarity", "septin", "germline", "journey"],
@@ -58,7 +58,12 @@ const answers = [
   {
     keywords: ["education", "school", "major", "unc", "oxford", "gpa", "degree"],
     html:
-      "Zihan is studying at the University of North Carolina at Chapel Hill, pursuing a B.S.P.H. in Biostatistics, a B.S. in Biology, and a minor in Pharmaceutical Sciences. Her GPA is 3.91. She also studied Biomedical Science at the University of Oxford as a non-matriculated exchange student in 2024."
+      "Zihan is studying at the University of North Carolina at Chapel Hill, pursuing a B.S.P.H. in Biostatistics, a B.S. in Biology, and a minor in Pharmaceutical Sciences. Her GPA is 3.93. She also studied Biomedical Science at the University of Oxford as a non-matriculated exchange student in 2024."
+  },
+  {
+    keywords: ["publication", "paper", "manuscript", "nature", "chemistry", "pgk", "journey"],
+    html:
+      "Zihan's current publication and manuscript record includes a submitted Nature Chemistry manuscript on PGK isozyme-selective inhibitors from parallel DNA-encoded library screening, a UNC JOURney article on PAR polarity protein depletion in adult C. elegans germline structure, and a manuscript in preparation on candidate anti-CBASS factors in T5 bacteriophage."
   },
   {
     keywords: ["skill", "skills", "technique", "programming", "python", "sas", "r"],
@@ -68,12 +73,12 @@ const answers = [
   {
     keywords: ["award", "honor", "honors", "surf", "dean", "olympiad"],
     html:
-      "Selected honors include the UNC Summer Undergraduate Research Fellowship, UNC Dean's List, iGEM Global Finalist and Global Gold, British Biology Olympiad Global Gold, Canadian Chemistry Contest Global Merit / Gold Award, BPhO Senior Physics Challenge Global Gold, and AMC 12 Distinction."
+      "Selected honors include the UNC Summer Undergraduate Research Fellowship, UNC Dean's List from 2023 to 2026, iGEM Global Finalist and Global Gold, British Biology Olympiad Global Gold, Canadian Chemistry Contest Global Merit / Gold Award, BPhO Senior Physics Challenge Global Gold, and AMC 12 Distinction."
   },
   {
     keywords: ["contact", "email", "cv", "resume"],
     html:
-      "You can reach Zihan at <a href=\"mailto:zhai_zihan@163.com\">zhai_zihan@163.com</a>. A full CV is available upon request."
+      "You can reach Zihan at <a href=\"mailto:zhai08@unc.edu\">zhai08@unc.edu</a>. A full CV is available upon request."
   },
   {
     keywords: ["interest", "literature", "travel", "han", "hanfu", "culture"],
