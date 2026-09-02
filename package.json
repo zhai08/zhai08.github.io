@@ -1,0 +1,12 @@
+{
+  "name": "zihan-personal-website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "devDependencies": {
+    "vercel": "^48.0.0"
+  }
+}
