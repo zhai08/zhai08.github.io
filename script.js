@@ -82,7 +82,12 @@ const answers = [
   {
     keywords: ["publication", "paper", "manuscript", "nature", "chemistry", "pgk", "journey"],
     html:
-      "Zihan's current publication and manuscript record includes a submitted Nature Chemistry manuscript on PGK isozyme-selective inhibitors from parallel DNA-encoded library screening, a UNC JOURney article on PAR polarity protein depletion in adult C. elegans germline structure, and a manuscript in preparation on candidate anti-CBASS factors in T5 bacteriophage."
+      "Zihan's current publication and manuscript record includes a submitted Nature Chemistry manuscript on PGK isozyme-selective inhibitors from parallel DNA-encoded library screening, a UNC JOURney article on PAR polarity protein depletion in adult C. elegans germline structure, a manuscript in preparation on candidate anti-CBASS factors in T5 bacteriophage, and an Undergraduate Honors Thesis on a live-cell assay platform for screening DNAJ-PKAc-targeting compounds in fibrolamellar carcinoma."
+  },
+  {
+    keywords: ["thesis", "honors thesis", "undergraduate thesis", "flc thesis", "repository"],
+    html:
+      "<em>Development and Application of a Live-Cell Assay Platform for Screening DNAJ-PKAc-Targeting Compounds in Fibrolamellar Carcinoma</em> is Zihan's Undergraduate Honors Thesis in the Department of Biology at UNC Chapel Hill. It is expected to be deposited in the UNC institutional repository in October 2026."
   },
   {
     keywords: ["skill", "skills", "technique", "programming", "python", "sas", "r"],
