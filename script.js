@@ -30,7 +30,9 @@ const promptButtons = document.querySelectorAll("[data-question]");
 function resolveAiEndpoint() {
   if (window.ZIHAN_AI_ENDPOINT) return window.ZIHAN_AI_ENDPOINT;
   if (window.location.protocol === "file:") return "";
-  if (window.location.hostname.endsWith("github.io")) return "";
+  if (window.location.hostname.endsWith("github.io")) {
+    return "https://zhai08-github-io.vercel.app/api/ask";
+  }
   return "/api/ask";
 }
 
