@@ -48,13 +48,11 @@ html {
 }
 
 body {
+  position: relative;
+  isolation: isolate;
   min-height: 100%;
   margin: 0;
-  background:
-    linear-gradient(90deg, transparent 0 31px, rgba(21, 25, 23, 0.045) 32px),
-    linear-gradient(transparent 0 31px, rgba(21, 25, 23, 0.04) 32px),
-    var(--bg);
-  background-size: 32px 32px;
+  background: var(--bg);
   color: var(--ink);
   font-size: 16px;
   line-height: 1.65;
@@ -65,11 +63,39 @@ body {
   -webkit-overflow-scrolling: touch;
 }
 
-:root[data-theme="dark"] body {
+body::before,
+body::after {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  content: "";
+}
+
+body::before {
+  z-index: -2;
+  background:
+    linear-gradient(180deg, rgba(243, 241, 234, 0.34), rgba(243, 241, 234, 0.82) 54%, rgba(243, 241, 234, 0.94)),
+    url("assets/longevity-landscape.jpg") center top / cover no-repeat;
+}
+
+body::after {
+  z-index: -1;
+  background:
+    linear-gradient(90deg, transparent 0 31px, rgba(21, 25, 23, 0.035) 32px),
+    linear-gradient(transparent 0 31px, rgba(21, 25, 23, 0.03) 32px);
+  background-size: 32px 32px;
+}
+
+:root[data-theme="dark"] body::before {
+  background:
+    linear-gradient(180deg, rgba(17, 21, 19, 0.78), rgba(17, 21, 19, 0.9) 56%, rgba(17, 21, 19, 0.97)),
+    url("assets/longevity-landscape.jpg") center top / cover no-repeat;
+}
+
+:root[data-theme="dark"] body::after {
   background:
     linear-gradient(90deg, transparent 0 31px, rgba(246, 242, 232, 0.04) 32px),
-    linear-gradient(transparent 0 31px, rgba(246, 242, 232, 0.035) 32px),
-    var(--bg);
+    linear-gradient(transparent 0 31px, rgba(246, 242, 232, 0.035) 32px);
   background-size: 32px 32px;
 }
 
@@ -189,8 +215,8 @@ input {
   z-index: -2;
   pointer-events: none;
   background:
-    linear-gradient(90deg, rgba(243, 241, 234, 0.98) 0%, rgba(243, 241, 234, 0.78) 39%, rgba(243, 241, 234, 0.16) 100%),
-    url("assets/hero-workspace.png") center / cover no-repeat;
+    linear-gradient(90deg, rgba(243, 241, 234, 0.82) 0%, rgba(243, 241, 234, 0.48) 42%, rgba(243, 241, 234, 0.16) 100%),
+    url("assets/longevity-landscape.jpg") center / cover no-repeat;
 }
 
 .hero-backdrop::before {
@@ -205,8 +231,8 @@ input {
 
 :root[data-theme="dark"] .hero-backdrop {
   background:
-    linear-gradient(90deg, rgba(17, 21, 19, 0.99) 0%, rgba(17, 21, 19, 0.82) 42%, rgba(17, 21, 19, 0.36) 100%),
-    url("assets/hero-workspace.png") center / cover no-repeat;
+    linear-gradient(90deg, rgba(17, 21, 19, 0.96) 0%, rgba(17, 21, 19, 0.76) 42%, rgba(17, 21, 19, 0.46) 100%),
+    url("assets/longevity-landscape.jpg") center / cover no-repeat;
 }
 
 :root[data-theme="dark"] .hero-backdrop::before {
@@ -547,7 +573,7 @@ h3 {
 }
 
 .publication-section {
-  background: var(--bg);
+  background: color-mix(in srgb, var(--bg) 80%, transparent);
 }
 
 .feature-panel {
@@ -790,14 +816,14 @@ h3 {
 
   .hero-backdrop {
     background:
-      linear-gradient(180deg, rgba(243, 241, 234, 0.99) 0%, rgba(243, 241, 234, 0.9) 58%, rgba(243, 241, 234, 0.34) 100%),
-      url("assets/hero-workspace.png") center / cover no-repeat;
+      linear-gradient(180deg, rgba(243, 241, 234, 0.88) 0%, rgba(243, 241, 234, 0.78) 58%, rgba(243, 241, 234, 0.38) 100%),
+      url("assets/longevity-landscape.jpg") center / cover no-repeat;
   }
 
   :root[data-theme="dark"] .hero-backdrop {
     background:
-      linear-gradient(180deg, rgba(17, 21, 19, 0.99) 0%, rgba(17, 21, 19, 0.88) 58%, rgba(17, 21, 19, 0.44) 100%),
-      url("assets/hero-workspace.png") center / cover no-repeat;
+      linear-gradient(180deg, rgba(17, 21, 19, 0.96) 0%, rgba(17, 21, 19, 0.86) 58%, rgba(17, 21, 19, 0.5) 100%),
+      url("assets/longevity-landscape.jpg") center / cover no-repeat;
   }
 
   .research-grid {
